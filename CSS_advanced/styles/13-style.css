@@ -34,7 +34,7 @@ a:link {
 }
 
 a:visited {
-    text-decoration-style: italic;
+    font-style: italic;
 }
 
 a:hover {
