@@ -50,7 +50,7 @@ a {
 }
 
 .section-header {
-    align: var(--section-header-align);
+    align: horizontal, var(--section-header-align);
 }
 
 .card-category, .section-tagline {
