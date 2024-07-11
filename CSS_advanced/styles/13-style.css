@@ -28,21 +28,6 @@ html {
     --section-title-margin: 0;
 }
 
-
-body {
-    font-family: var(--font-family-base);
-    color: var(--text-color);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base);
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-}
-
-
 a:link {
     color: var(--text-color);
     text-decoration: none;
@@ -59,6 +44,19 @@ a:hover {
 
 a:active {
     background-color: var(--color-light-grey);
+}
+
+body {
+    font-family: var(--font-family-base);
+    color: var(--text-color);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
 }
 
 .section-header {
