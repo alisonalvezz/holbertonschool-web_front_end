@@ -76,7 +76,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-header {
-    text-align: var(--section-header-align);
     padding: var(--section-header-padding);
 }
 
@@ -84,10 +83,15 @@ h1, h2, h3, h4, h5, h6 {
     padding: var(--section-body-padding);
 }
 
-.section-header {
-    text-align: var(--section-header-align);
-    padding: var(--section-footer-align);
+.section-footer {
+    padding: var(--section-footer-padding);
+    align: var(--section-footer-align);
 }
+
+.footer {
+    padding: var(--footer-padding);
+}
+
 
 .section-title {
     font-family: var(--font-family-title);
