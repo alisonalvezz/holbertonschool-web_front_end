@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--nav-item-font-family);
     font-style: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
-    text-size-adjust: var(--nav-item-letter-spacing);
+    letter-spacing: var(--nav-item-letter-spacing);
     margin: var(--nav-item-margin);
 }
 
