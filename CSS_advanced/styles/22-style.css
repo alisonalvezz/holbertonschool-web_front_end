@@ -200,3 +200,15 @@ ul.row {
     float: left;
     padding: 0.5rem;    
 }
+
+.footer-adress {
+    text-decoration-color: var(--text-color);
+}
+
+.social-link {
+    display: block;
+}
+
+.social-link > svg {
+    fill: var(--text-color);
+}
