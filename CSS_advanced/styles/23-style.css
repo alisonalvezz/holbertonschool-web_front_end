@@ -202,7 +202,7 @@ ul.row {
 }
 
 .footer-adress {
-    text-decoration-color: var(--text-color);
+    color: var(--text-color);
 }
 
 .social-link {
